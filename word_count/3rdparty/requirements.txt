@@ -1,0 +1,9 @@
+heronpy==0.17.5
+pykafka
+pyzmq
+numpy
+pandas
+pytz
+pyyaml
+pyproj
+toolz
