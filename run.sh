@@ -5,10 +5,11 @@ set -e
 minikube delete || true
 
 echo "==> Create minikube…"
-minikube start \
-  --memory=13312 \
-  --cpus=9 \
-  --disk-size=30g
+# minikube start \
+#   --memory=13312 \
+#   --cpus=9 \
+#   --disk-size=30g
+minikube start
 
 set +e
 echo "==> Waiting for Kubernetes…"

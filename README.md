@@ -55,6 +55,12 @@ Comments
 --------
 
 If you open `word_count/topologies/BUILD` you will see a lot of not used
-dependencies. Thore are used to build a big PEX... BUT a lot of times the issue
-also occurs with small PEX, so you can comment all the dependencies except
-`:word_count` and `3rdparty:heronpy` and try to submit again.
+dependencies. Thore are used to build a big PEX... With small PEX the submit
+works but then a new message error appears:
+
+```
+[…] [ERROR]: Failed to get physical plan for topology 'word-count-topology'
+```
+
+So you can comment all the dependencies except `:word_count` and
+`3rdparty:heronpy` and try to submit again.
