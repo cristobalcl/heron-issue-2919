@@ -19,8 +19,8 @@ Instructions
 Launch all:
 
 ```bash
-git clone XXX
-cd XXX
+git clone https://github.com/cristobalcl/heron-issue-2919.git
+cd heron-issue-2919
 ./run.sh
 ```
 
